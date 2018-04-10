@@ -8,6 +8,7 @@
 #include <iostream>
 #include <string>
 #include "window_interface.h"
+#include "connect_window.h"
 
 using std::string;
 using std::size_t;
@@ -20,6 +21,7 @@ protected:
     string& rov_ip;
     size_t& rov_port;
     size_t& local_port;
+    ConnectWindow* conn_window;
 
 public:
     /**
